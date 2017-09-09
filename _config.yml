@@ -10,12 +10,12 @@ eventbrite_embed: '<div style="width:100%; text-align:left;"><iframe src="//even
 timezone: Etc/UTC
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: images/logo-cbaem1.jpg
-description: Event marketing template for Jekyll.
+logo: logo.png
+description: Chesapeake Bay Area Exoplanet Meeting
 author: Tom Barclay
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  # name:
+  # email:
+  # twitter: # twitter username without the @ symbol
 social:
   name: Chesapeake Bay Area Exoplanet Meeting
   links:
