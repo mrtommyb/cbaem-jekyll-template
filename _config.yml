@@ -2,7 +2,7 @@
 # Site
 
 title: Chesapeake Bay Area Exoplanet Meeting
-url: "https://dr.tombarclay.com/cbaem-jekyll-template"
+url:
 baseurl:  "https://dr.tombarclay.com/cbaem-jekyll-template"
 google_analytics_key:
 google_maps_javascript_api_key: AIzaSyD_7JUA0So67ka7hGAkVBqQLKNiaOCpLC8
