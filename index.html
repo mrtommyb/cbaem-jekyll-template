@@ -1,6 +1,6 @@
 ---
 title: Chesapeake Bay Area Exoplanet Meeting
-start_datetime: 2017-10-06 9:00:00
+start_datetime: 2017-10-06 10:00:00
 end_datetime: 2016-11-10 17:00:00
 timezone: America/New_York
 description: A fun filled day of exoplanet science.
@@ -116,18 +116,11 @@ _options:
 	<a class="email" href="mailto:cbaesm@gmail.com?subject=Question about CBAEM&amp;}">{% include icons/social-icon.html icon="Email" %}</a>
 </div>  -->
 
+<h3 class="editable">Agenda</h3>
 
-<h3 class="editable">Location</h3>
-<div class="map" id="gmap_canvas"></div>
-<address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
+<p class="editable">This inaugural workshop will be fairly informal, in keeping with the spirit of the Bay Area Exoplanet and the National Capitol Area Disk meetings, with plenty of time for discussion and building collaborations. For this first meeting, our vision is that one person from each institution will give a 20-30 minute overview talk to get us up to speed on what's happening in exoplanet science at their home institution. For future meetings, we will plan on soliciting contributed talks, with a special focus on talks from students, post-docs, and visitors. Since we plan on having these meetings several times a year, everyone that is interested will be able talk about their current research.</p>
 
-<!-- <h3 class="editable">Photos from 2015</h3>
-<div class="grid">
-	{% for photo in page.photos %}
-		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a></div>
-	{% endfor %}
-</div> 
--->
+<p class="editable">Each meeting will feature an invited speaker. Tom Greene from NASA Ames has kindly agreed to be our invited speaker. He is the principle organzier of the highly successful Bay Area Exoplanet Science Meetings.</p>
 
 <h3 class="editable">Institutional Points of Contact</h3>
 <div class="gallery">
@@ -141,10 +134,26 @@ _options:
   {% endfor %}
 </div>
 
-<!-- <h3 class="editable">Contact</h3>
-<p class="editable">Send us a message with any questions about the meeting.</p>
 
-<form method="post" action="{{ site.baseurl }}/index.html?submit=success">
+<h3 class="editable">Location</h3>
+<p class="editable">The meeting is held at locations in DC, Maryland, and Northern Virginia. The inaugural meeting will be held at the <b>University of Maryland, College Park</b>.</p>
+<div class="map" id="gmap_canvas"></div>
+<address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
+
+<!-- <h3 class="editable">Photos from 2015</h3>
+<div class="grid">
+	{% for photo in page.photos %}
+		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a></div>
+	{% endfor %}
+</div> 
+-->
+
+
+
+<h3 class="editable">Contact Us</h3>
+<p class="editable">Send us a message with any questions about the meeting. You can reach us by email at <a href="mailto:cbaesm@gmail.com">cbaesm@gmail.com</a></p>
+
+<!-- <form method="post" action="{{ site.baseurl }}/index.html?submit=success">
 	<label for="email_address">Email Address</label>
 	<input id="email_address" type="text" name="email">
 
