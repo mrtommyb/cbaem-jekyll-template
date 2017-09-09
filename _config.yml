@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Malt Template
+title: Chesapeake Bay Area Exoplanet Meeting
 url: "https://whispering-boat.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,14 +10,14 @@ eventbrite_embed: '<div style="width:100%; text-align:left;"><iframe src="//even
 timezone: Etc/UTC
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: images/logo-cbaem1.jpg
 description: Event marketing template for Jekyll.
-author:
+author: Tom Barclay
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Malt Template
+  name: Chesapeake Bay Area Exoplanet Meeting
   links:
     - https://github.com/CloudCannon/malt-jekyll-template
 

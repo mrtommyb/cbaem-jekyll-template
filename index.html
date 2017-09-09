@@ -1,15 +1,15 @@
 ---
-title: Malt Festival
-start_datetime: 2016-11-10 9:00:00
-end_datetime: 2016-11-10 18:00:00
-timezone: America/Los_Angeles
-description: A fun filled day with friends and beer.
-background_image: /uploads/2015/12.jpeg
+title: Chesapeake Bay Area Exoplanet Meeting
+start_datetime: 2017-10-06 9:00:00
+end_datetime: 2016-11-10 17:00:00
+timezone: America/New_York
+description: A fun filled day of exoplanet science.
+background_image: /images/Chesapeake_Bay_Bridge_viewed_from_Sandy_Point_State_Park.jpg
 map:
-  address: 1 Market Street, San Francisco
+  address: Department of Astronomy, University of Maryland, College Park, MD 20742
   zoom: 16
-  latitude: 37.7938462
-  longitude: -122.3970253
+  latitude: 38.9908264
+  longitude: -76.9444736
 featured_brews:
   - label_image: /uploads/beers/label-1.png
     title: Count Chocula
@@ -73,13 +73,13 @@ photos:
   - image: /uploads/2015/12.jpeg
     title: Malt Festival 12
   - image: /uploads/2015/13.jpeg
-    title: Malt Festival 13
+    title: Malt Festival 13 
 _options:
   label_image:
     width: 400
     height: 400
   image:
-    width: 600
+    width: 1200
     height: 1200
 ---
 
@@ -99,9 +99,9 @@ _options:
 		</var>
 	</span>
 </p>
-<p class="editable">Malt is an annual festival celebrating the finest craft beer in San Francisco. This year we have over 50 craft beers on tap, food trucks, live music and entertainment. Tickets are available right here for $45. Valid government issued ID required on entry.</p>
+<p class="editable">The Chesapeake Bay Area Exoplanet Meeting brings together all lovers of exoplanets and related science from the DC area and beyond. The series of one-day meetings enable the sharing of ideas in an informal setting with the focus being on building collaborations and expertize.</p>
 
-<h3 class="editable">Featured brews</h3>
+<!--  <h3 class="editable">Featured brews</h3>
 <div class="gallery">
 	{% for feature in page.featured_brews %}
 		<a href="{% include relative-src.html src=feature.link %}">
@@ -114,31 +114,33 @@ _options:
 </div>
 
 <h3 class="editable">Get your tickets</h3>
-{{ site.eventbrite_embed }}
+{{ site.eventbrite_embed }} -->
 
-<h3 class="editable">Tell your friends</h3>
+<!-- <h3 class="editable">Contact Us</h3>
 <div class="sharing">
 	{% assign share_url = page.url | absolute_url | cgi_escape %}
 	<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}">{% include icons/social-icon.html icon="Facebook" %}</a>
 	<a class="twitter" href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text=I'm%20going%20to%20this%20event!">{% include icons/social-icon.html icon="Twitter" %}</a>
 	<a class="google-plus" href="https://plus.google.com/share?url={{ share_url }}">{% include icons/social-icon.html icon="Google Plus" %}</a>
 	<a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ share_url }}">{% include icons/social-icon.html icon="LinkedIn" %}</a>
-	<a class="email" href="mailto:?subject=I'm going to this event&amp;body=Check%20it%20out%20-%20{{ share_url }}">{% include icons/social-icon.html icon="Email" %}</a>
-</div>
+	<a class="email" href="mailto:cbaesm@gmail.com?subject=Question about CBAEM&amp;}">{% include icons/social-icon.html icon="Email" %}</a>
+</div>  -->
+
 
 <h3 class="editable">Location</h3>
 <div class="map" id="gmap_canvas"></div>
 <address><a href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{% include icons/place.svg %} {{ page.map.address }}</a></address>
 
-<h3 class="editable">Photos from 2015</h3>
+<!-- <h3 class="editable">Photos from 2015</h3>
 <div class="grid">
 	{% for photo in page.photos %}
 		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a></div>
 	{% endfor %}
-</div>
+</div> 
+-->
 
-<h3 class="editable">Contact</h3>
-<p class="editable">Send us a message with any questions about sponsoring the event, tickets or anything else.</p>
+<!-- <h3 class="editable">Contact</h3>
+<p class="editable">Send us a message with any questions about the meeting.</p>
 
 <form method="post" action="{{ site.baseurl }}/index.html?submit=success">
 	<label for="email_address">Email Address</label>
@@ -150,18 +152,18 @@ _options:
 	<label for="message">Message</label>
 	<textarea id="message" name="message"></textarea>
 
-	<input type="hidden" name="_to" value="contact@example.com">
+	<input type="hidden" name="_to" value="barclay.astro@gmail.com">
 	<input type="text" name="_gotcha" style="display: none;">
 
 	<input type="submit" value="Send Message">
-</form>
+</form> -->
 
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 
 	function initMap() {
 		var myOptions = {
-			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
+			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"on"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
 			zoom: window.mapData.zoom,
 			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
 		};
