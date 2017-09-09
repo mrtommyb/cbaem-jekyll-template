@@ -29,7 +29,7 @@ permalink: pretty
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - github-pages
+  # - github-pages
 
 exclude:
   - Gemfile
