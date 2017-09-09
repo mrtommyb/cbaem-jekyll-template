@@ -11,42 +11,42 @@ map:
   zoom: 16
   latitude: 38.9908264
   longitude: -76.9444736
-featured_brews:
+pocs:
   - label_image: /uploads/beers/label-1.png
-    title: Count Chocula
+    title: Alan Boss<br>Carnegie DTM
     link: #
   - label_image: /uploads/beers/label-2.png
-    title: Professor Pope
+    title: Peter Plavchan<br>George Mason University
     link: #
   - label_image: /uploads/beers/label-3.png
-    title: Blazing Dog
+    title: Someone<br>Goddard Space Flight Center
     link: #
   - label_image: /uploads/beers/label-4.png
-    title: Extravagant Bartender
+    title: Someone<br>University of Maryland, College Park
     link: #
   - label_image: /uploads/beers/label-5.png
-    title: Brain Sour
+    title: Someone<br>Space Telescope Science Institute
     link: #
   - label_image: /uploads/beers/label-6.png
-    title: Chinchilla
+    title: Someone<br>NASA Headquarters
     link: #
   - label_image: /uploads/beers/label-7.png
-    title: Frosty Boots
+    title: Someone<br>Johns Hopkins University
     link: #
   - label_image: /uploads/beers/label-8.png
-    title: Grape Pirate
+    title: Someone<br>University of Deleware
     link: #
   - label_image: /uploads/beers/label-9.png
-    title: Blue Bus
+    title: others?<br>
     link: #
   - label_image: /uploads/beers/label-10.png
-    title: Orange Tank
+    title: others?<br>
     link: #
   - label_image: /uploads/beers/label-11.png
-    title: Kangaroo
+    title: others?<br>
     link: #
   - label_image: /uploads/beers/label-12.png
-    title: CloudCannon
+    title: others?<br>
     link: #
 photos:
   - image: /uploads/2015/1.jpeg
@@ -102,19 +102,8 @@ _options:
 </p>
 <p class="editable">The Chesapeake Bay Area Exoplanet Meeting brings together all lovers of exoplanets and related science from the DC area and beyond. The series of one-day meetings enable the sharing of ideas in an informal setting with the focus being on building collaborations and expertize.</p>
 
-<!--  <h3 class="editable">Featured brews</h3>
-<div class="gallery">
-	{% for feature in page.featured_brews %}
-		<a href="{% include relative-src.html src=feature.link %}">
-			<div class="inner-wrapper">
-				<img src="{% include relative-src.html src=feature.label_image %}" alt="{{ feature.title }}">
-			</div>
-			<p class="caption">{{ feature.title }}</p>
-		</a>
-	{% endfor %}
-</div>
 
-<h3 class="editable">Get your tickets</h3>
+<!-- <h3 class="editable">Get your tickets</h3>
 {{ site.eventbrite_embed }} -->
 
 <!-- <h3 class="editable">Contact Us</h3>
@@ -139,6 +128,18 @@ _options:
 	{% endfor %}
 </div> 
 -->
+
+<h3 class="editable">Institutional Points of Contact</h3>
+<div class="gallery">
+  {% for feature in page.pocs %}
+    <a href="{% include relative-src.html src=feature.link %}">
+      <div class="inner-wrapper">
+        <img src="{% include relative-src.html src=feature.label_image %}" alt="{{ feature.title }}">
+      </div>
+      <p class="caption">{{ feature.title }}</p>
+    </a>
+  {% endfor %}
+</div>
 
 <!-- <h3 class="editable">Contact</h3>
 <p class="editable">Send us a message with any questions about the meeting.</p>
