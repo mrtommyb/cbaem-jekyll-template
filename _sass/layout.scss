@@ -9,6 +9,18 @@ h2 {
     margin-top: 0;
 }
 
+ol {
+	background: rgba(0, 0, 0 ,0.3);
+	padding: 20px 40px;
+	text-align: left;
+	border-radius: 3px;
+}
+
+/* LIST #2 */
+#list2 ol { font-style:italic; font-size:24px; color:#bfe1f1; list-style: none; }
+
+
+
 .content {
 	background: rgba(0, 0, 0 ,0.3);
 	padding: 20px 40px;
