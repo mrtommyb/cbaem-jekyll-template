@@ -1,32 +1,6 @@
-# Malt
+# Chesapeake Bay Area Exoplanet Meeting website
 
-Event marketing template for Jekyll. Browse through a [live demo](https://whispering-boat.cloudvent.net/).
-Increase the web presence of your event with this configurable theme.
-
-![Malt](images/_screenshot.jpg)
-
-CloudCannon was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
-
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
-
-## Features
-
-* Pre-built page
-* Pre-styled components
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* SEO tags
-* Google Analytics
-* [EventBrite](https://www.eventbrite.com/)
-* Contact Form
-* Featured
-* Image Gallery
-
-## Setup
-
-1. Add your site details in `_config.yml`.
-2. Add your Google Analytics to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+This is a fork of an [existing template](https://github.com/CloudCannon/malt-jekyll-template) made by [CloudCannon](http://cloudcannon.com/). Browse through a [live demo](https://whispering-boat.cloudvent.net/).
 
 ## Develop
 
@@ -44,9 +18,6 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 $ bundle exec jekyll serve
 ~~~
 
-## Editing
-
-Malt is already optimised for updating pages, company details and footer elements in CloudCannon.
 
 ## SEO Tag
 
@@ -59,13 +30,6 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 1. Add your Google Analytics key to `_config.yml`.
 2. Run your site in production `JEKYLL_ENV=production` (the default for CloudCannon and GitHub Pages).
 
-## EventBrite
-
-[EventBrite](https://www.eventbrite.com/) is a third party embeddable event module for websites. To install:
-
-1. Create an event on EventBrite.
-2. Copy the Ticket Form embed code from the Widgets menu item.
-3. Paste it into `eventbrite_embed` in `_config.yml`.
 
 ## Image gallery / Featured
 
