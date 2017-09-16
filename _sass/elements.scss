@@ -15,7 +15,7 @@ html {
 html,
 textarea,
 input {
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 	text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
 	color: #fff;
 	min-height: 100vh;
-	font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -32,10 +31,12 @@ h2,
 h3,
 .dates {
 	text-align: center;
+	font-family: 'Exo 2', sans-serif;
 }
 
 p {
 	font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
