@@ -11,7 +11,7 @@ timezone: America/New_York
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: logo.png
-description: Chesapeake Bay Area Exoplanet Meeting
+description: The Chesapeake Bay Area Exoplanet Meeting brings together all lovers of exoplanets and related science from the DC area and beyond.
 author: Tom Barclay
   # name:
   # email:
@@ -19,7 +19,7 @@ author: Tom Barclay
 social:
   name: Chesapeake Bay Area Exoplanet Meeting
   links:
-    - https://github.com/mrtommyb/cbaem-website
+    - https://chexo.org
 
 # -----
 # Build
