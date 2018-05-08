@@ -19,7 +19,9 @@ ol {
 /* LIST #2 */
 #list2 ol { font-style:italic; font-size:24px; color:#bfe1f1; list-style: none; }
 
-
+.container span {
+  display: inline-block;
+}
 
 .content {
 	background: rgba(0, 0, 0 ,0.3);
