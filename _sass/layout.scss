@@ -23,16 +23,37 @@ ol {
   display: inline-block;
 }
 
-.column {
+
+.left {
+    width: 85px;
     float: left;
 }
 
-.left {
-    width: 10%;
+.right {
+    width: auto;
+    margin-left: 85px;
 }
 
-.right {
-    width: 90%;
+.clear {
+	clear:both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        font-size: 18px
+    }
+    .right {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+    }
+    .left {
+        width: 100%;
+        float: left;
+    }
 }
 
 .content {
