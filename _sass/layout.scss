@@ -23,6 +23,18 @@ ol {
   display: inline-block;
 }
 
+.column {
+    float: left;
+}
+
+.left {
+    width: 10%;
+}
+
+.right {
+    width: 90%;
+}
+
 .content {
 	background: rgba(0, 0, 0 ,0.3);
 	padding: 20px 40px;
